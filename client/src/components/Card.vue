@@ -95,7 +95,7 @@ export default {
     },
 
     getData() {
-      axios.get(`http://192.168.86.247:3000/api/user/card`).then((response) => {
+      axios.get(`http://192.168.4.66:3000/api/user/card`).then((response) => {
         this.clubs = response.data;
         this.loading = false;
       });

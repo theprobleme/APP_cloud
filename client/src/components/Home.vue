@@ -61,7 +61,7 @@ export default {
     methods: {
         getData() {
             axios
-                .get(`http://192.168.86.247:3000/api/user/table`)
+                .get(`http://192.168.4.66:3000/api/user/table`)
                 .then((response) => {
                     this.lines = response.data;
                 })   

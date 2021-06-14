@@ -176,7 +176,7 @@ export default {
   methods: {
     getUser() {
       axios
-        .get(`http://192.168.86.247:3000/api/user/profil`)
+        .get(`http://192.168.4.66:3000/api/user/profil`)
         .then((response) => {
           this.profil = response.data;
           console.log(this.profil);
@@ -195,7 +195,7 @@ export default {
 
     createVagrantFile() {
       axios
-        .post(`http://192.168.86.247:3000/api/user/service`,
+        .post(`http://192.168.4.66:3000/api/user/service`,
         {
           // DATA
           serviceNames: this.serviceNames,

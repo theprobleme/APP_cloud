@@ -59,7 +59,7 @@ mounted: function () {
      methods: {
         verifyToken() {
             axios
-                .get(`http://192.168.86.247:3000/api/user/token`)
+                .get(`http://192.168.4.66:3000/api/user/token`)
                 
                 .then((response) => {
                     this.user = response.data;

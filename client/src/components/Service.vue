@@ -29,7 +29,7 @@
           <v-stepper-step :complete="e6 > 1" step="1">
             Sélectionner un service
             <small> LAMP : création de services Linux Apache MySQL PHP </small>
-            <small> S7 : création de machines virtuelles vagrant vides </small>
+            <small> S7 : création de machines virtuelles Vagrant vides </small>
           </v-stepper-step>
 
           <v-stepper-content step="1">
@@ -55,8 +55,8 @@
           </v-stepper-content>
 
           <v-stepper-step :complete="e6 > 2" step="2">
-            Définir le nombre de machine virtuelles souhaitées
-            <small> Ce nombre de peux pas dépasser 50 </small>
+            Définir le nombre de machines virtuelles souhaitées
+            <small> Ce nombre ne peux pas dépasser 50 </small>
           </v-stepper-step>
 
           <v-stepper-content step="2">
